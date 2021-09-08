@@ -5,6 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
   const closeModal = document.querySelector('#closeModal');
   const questionTitle = document.querySelector('#question');
   const formAnswers = document.querySelector('#formAnswers');
+  const answerItem1 = document.querySelector('#answerItem1');
+  const answerItem2 = document.querySelector('#answerItem2');
+  const answerImg = document.querySelector('answerImg');
+
 
   btnOpenModal.addEventListener('click', () => {
     modalBlock.classList.add('d-block');
